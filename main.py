@@ -2,8 +2,8 @@ import asyncio
 import random
 import httpx # (Asynchronous requests ke liye)
 
-WAHA_URL = "http://localhost:3000"
-API_KEY = "1290aa811bc94f7fa4a7edc15d16b62d" # Yahan .env se key load karein
+WAHA_URL = "http://localhost"
+API_KEY = "123456789" 
 SESSION_NAME = "default"
 
 async def simulate_typing(chat_id: str, message_length: int):
