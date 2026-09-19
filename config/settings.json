@@ -1,0 +1,33 @@
+{
+    "system": {
+        "max_concurrent_workers": 500,
+        "environment": "production",
+        "log_level": "INFO"
+    },
+    "whatsapp_meta": {
+        "api_version": "v18.0",
+        "max_messages_per_second": 100,
+        "webhook_port": 8000
+    },
+    "ai_configuration": {
+        "active_provider": "openrouter",
+        "providers": {
+            "grok": {
+                "model": "grok-beta"
+            },
+            "openrouter": {
+                "model": "gryphe/mythomax-l2-13b"
+            },
+            "deepseek": {
+                "model": "deepseek-chat"
+            }
+        },
+        "max_generation_tokens": 150,
+        "temperature": 0.85,
+        "max_api_requests_per_second": 50
+    },
+    "intelligence_engine": {
+        "adaptive_trigger_threshold": 10,
+        "memory_context_limit": 15
+    }
+}

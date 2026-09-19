@@ -1,0 +1,16 @@
+{
+  "name": "baileys_bot",
+  "version": "1.0.0",
+  "description": "WhatsApp romance AI bot using Baileys (unofficial, no Meta verification needed)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "qrcode": "^1.5.3",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.2"
+  }
+}

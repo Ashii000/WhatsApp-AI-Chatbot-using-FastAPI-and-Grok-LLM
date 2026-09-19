@@ -1,0 +1,18 @@
+# High-Performance Web Server (For WhatsApp Webhooks)
+fastapi>=0.103.0
+uvicorn[standard]>=0.23.2
+
+# Async HTTP Client (For Meta API and OpenRouter/DeepSeek API)
+httpx>=0.25.0
+
+# Async Database Engine (For ChatGPT-style Memory Isolation)
+aiosqlite>=0.19.0
+
+# Async File Handling (For reading 100+ User Storylines without blocking)
+aiofiles>=23.2.1
+
+# Environment Variable Manager (For securing API keys in .env)
+python-dotenv>=1.0.0
+
+# Additional performance optimizations
+orjson>=3.9.0
